@@ -46,6 +46,9 @@ jobs:
 
     runs-on: ubuntu-latest
     steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+        
       -
         # Add support for more platforms with QEMU (optional)
         # https://github.com/docker/setup-qemu-action
