@@ -1,1 +1,4 @@
 fastapi==0.135.2
+
+pydantic
+pytest
