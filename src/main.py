@@ -12,7 +12,7 @@ class Estudante(BaseModel):
     
 
 @app.get("/helloworld")
-def read_root():
+async def read_root():
     return {"Message": "Hello, World"}
 
 @app.get("/funcaoteste")
